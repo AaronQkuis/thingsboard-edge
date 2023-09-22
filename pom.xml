@@ -160,13 +160,13 @@
         <module>common</module>
         <module>rule-engine</module>
         <module>dao</module>
-<!--        <module>transport</module>-->
-        <module>ui-ngx</module>
+        <module>transport</module>
+        <!--<module>ui-ngx</module>-->
         <module>tools</module>
         <module>application</module>
-        <module>msa</module>
+        <!--<module>msa</module>-->
         <module>rest-client</module>
-<!--        <module>monitoring</module>-->
+        <module>monitoring</module>
     </modules>
 
     <profiles>
@@ -785,7 +785,7 @@
                         </lifecycleMappingMetadata>
                     </configuration>
                 </plugin>
-                <plugin>
+                <!--<plugin>
                     <groupId>com.mycila</groupId>
                     <artifactId>license-maven-plugin</artifactId>
                     <version>3.0</version>
@@ -852,14 +852,14 @@
                             </goals>
                         </execution>
                     </executions>
-                </plugin>
+                </plugin>-->
             </plugins>
         </pluginManagement>
         <plugins>
-            <plugin>
+            <!--<plugin>
                 <groupId>com.mycila</groupId>
                 <artifactId>license-maven-plugin</artifactId>
-            </plugin>
+            </plugin>-->
         </plugins>
     </build>
 
