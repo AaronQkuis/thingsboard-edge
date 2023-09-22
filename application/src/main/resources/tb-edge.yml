@@ -79,8 +79,8 @@ server:
 
 # Cloud configuration
 cloud:
-  routingKey: "${CLOUD_ROUTING_KEY:}"
-  secret: "${CLOUD_ROUTING_SECRET:}"
+  routingKey: "${CLOUD_ROUTING_KEY:4d8ef9b0-d64f-26f5-123f-b5e6b1bc8628}"
+  secret: "${CLOUD_ROUTING_SECRET:czmo155sdwjzmbr6ne1n}"
   reconnect_timeout: "${CLOUD_RECONNECT_TIMEOUT:3000}" # in milliseconds
   rpc:
     host: "${CLOUD_RPC_HOST:localhost}"
